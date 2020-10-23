@@ -1,0 +1,16 @@
+1.PRINT THE FOLLOWING PATTERN :
+
+PROGRAM:
+rows=int(input("enter number if rows "))
+for i in range(rows + 1, 0, -1):
+    for j in range(0, i - 1):
+        print("*",end=' ')
+    print(" ")
+    
+OUTPUT:
+enter number of rows 5
+* * * * *  
+* * * *  
+* * *  
+* *  
+*
